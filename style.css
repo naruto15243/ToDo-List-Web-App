@@ -74,3 +74,58 @@ li{
 .delete:hover{
     background:darkred;
 }
+.top-bar{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+#searchInput{
+    flex:1;
+    padding:10px;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.clear-btn{
+    width:100%;
+    margin-bottom:10px;
+    background:#ff4d4d;
+}
+
+.clear-btn:hover{
+    background:#d63031;
+}
+
+li{
+    transition:.3s;
+}
+
+li:hover{
+    transform:scale(1.02);
+}
+
+.dark{
+    background:#1d1d1d;
+    color:white;
+}
+
+.dark .container{
+    background:#2d2d2d;
+}
+
+.dark li{
+    background:#444;
+    color:white;
+}
