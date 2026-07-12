@@ -44,6 +44,6 @@ That's it! No additional setup is required.
 
 ## Author
 
-Naruto Uzumaki
+Anuj Jakki
 
 GitHub: https://github.com/naruto15243
